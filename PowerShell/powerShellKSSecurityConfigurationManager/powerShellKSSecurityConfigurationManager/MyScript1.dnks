@@ -1,0 +1,74 @@
+﻿<PROLOGUE>
+  <![CDATA[
+
+]]>
+</PROLOGUE>
+
+
+<KSID>
+  <Type>Regular</Type>
+  <Name>MyScript1</Name>
+  <Desc>Checks a user-defined registry key for specifc values</Desc>
+  <Version>
+    <AppManID>6.0.2</AppManID>
+    <KSVerID>1.9</KSVerID>
+  </Version>
+  <NeedPWD>0</NeedPWD>
+  <AdminOnly>0</AdminOnly>
+  <UnixOnly>0</UnixOnly>
+  <DataSrcID>0</DataSrcID>
+  <Platform>-1</Platform>
+  <OptionExplicit>0</OptionExplicit>
+</KSID>
+
+<ObjType fullpath="0" dropfolderlist="0" styleversion="3">
+  <Type name="NT_MachineFolder"></Type>
+</ObjType>
+
+<Schedule>
+  <Default type="interval" runmode="sched">
+    <Interval>
+      <Hour>0</Hour>
+      <Minute>1</Minute>
+      <Second>0</Second>
+    </Interval>
+  </Default>
+  <Allowed>
+    <RunOnce>1</RunOnce>
+    <IntervalIter>1</IntervalIter>
+    <Daily>1</Daily>
+    <Weekly>1</Weekly>
+    <Monthly>1</Monthly>
+  </Allowed>
+</Schedule>
+
+<DataSrc></DataSrc>
+
+<Parameter>
+  <Param name="MySampleInput">
+    <Desc>First Sample Input for .NetKS Script</Desc>
+    <Type>String</Type>
+    <Value>Default Value</Value>
+    <ReqInput>0</ReqInput>
+    <I_Type />
+    <NoQuote>0</NoQuote>
+  </Param>
+</Parameter>
+
+<ActionDef></ActionDef>
+
+<AdvanceConfig>
+  <EventOp>
+    <SupprTime uselast="0">1200</SupprTime>
+    <OccurCnt nCount="1" nInterval="1">0</OccurCnt>
+  </EventOp>
+  <DataOp>
+    <CollectIter>1</CollectIter>
+    <CollectUponEvt pauseonevtstop="0">0</CollectUponEvt>
+    <CollectDetail>1</CollectDetail>
+    <NoArchiveDetail>0</NoArchiveDetail>
+    <ReportArchive>0</ReportArchive>
+  </DataOp>
+</AdvanceConfig>
+
+<IsPowershell>true</IsPowershell>

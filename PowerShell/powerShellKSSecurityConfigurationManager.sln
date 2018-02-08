@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "powerShellKSSecurityConfigurationManager", "powerShellKSSecurityConfigurationManager\powerShellKSSecurityConfigurationManager\powerShellKSSecurityConfigurationManager.csproj", "{DF65CA65-E38E-4CFB-927A-7043FEFD6CBD}"
+EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "powerShellKSSecurityConfigurationManager.PowerShell", "powerShellKSSecurityConfigurationManager\powerShellKSSecurityConfigurationManager.PowerShell\powerShellKSSecurityConfigurationManager.PowerShell.pssproj", "{A568B6F4-B093-45DF-A2BD-A5F317F909AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF65CA65-E38E-4CFB-927A-7043FEFD6CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF65CA65-E38E-4CFB-927A-7043FEFD6CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF65CA65-E38E-4CFB-927A-7043FEFD6CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF65CA65-E38E-4CFB-927A-7043FEFD6CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A568B6F4-B093-45DF-A2BD-A5F317F909AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A568B6F4-B093-45DF-A2BD-A5F317F909AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A568B6F4-B093-45DF-A2BD-A5F317F909AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A568B6F4-B093-45DF-A2BD-A5F317F909AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
