@@ -1,0 +1,75 @@
+<PROLOGUE><![CDATA[
+
+]]></PROLOGUE>
+<KSID>
+  <Type>Regular</Type>
+  <Name>MyScript1</Name>
+  <Desc>Checks a user-defined registry key for specifc values</Desc>
+  <NeedPWD>0</NeedPWD>
+  <AdminOnly>0</AdminOnly>
+  <UnixOnly>0</UnixOnly>
+  <DataSrcID>0</DataSrcID>
+  <Platform>-1</Platform>
+  <OptionExplicit>0</OptionExplicit>
+  <Version>
+    <AppManID>6.0.2</AppManID>
+    <KSVerID>1.9</KSVerID>
+  </Version>
+</KSID>
+<ObjType fullpath="0" dropfolderlist="0" styleversion="3">
+  <Type name="NT_MachineFolder" />
+</ObjType>
+<Schedule>
+  <Default type="interval" runmode="sched">
+    <Interval>
+      <Hour>0</Hour>
+      <Minute>1</Minute>
+      <Second>0</Second>
+    </Interval>
+  </Default>
+  <Allowed>
+    <RunOnce>1</RunOnce>
+    <IntervalIter>1</IntervalIter>
+    <Daily>1</Daily>
+    <Weekly>1</Weekly>
+    <Monthly>1</Monthly>
+  </Allowed>
+</Schedule>
+<DataSrc></DataSrc>
+<Parameter>
+  <Param name="EngineName">
+    <Type>String</Type>
+    <ReqInput>0</ReqInput>
+    <Folder>0</Folder>
+    <NoQuote>0</NoQuote>
+  </Param>
+  <Param name="AccessKey">
+    <Type>String</Type>
+    <ReqInput>0</ReqInput>
+    <Folder>0</Folder>
+    <NoQuote>0</NoQuote>
+  </Param>
+  <Param name="SecretKey">
+    <Type>String</Type>
+    <ReqInput>0</ReqInput>
+    <I_Type>I_EDIT(1)</I_Type>
+    <Folder>0</Folder>
+    <NoQuote>0</NoQuote>
+  </Param>
+</Parameter>
+<ActionDef />
+<AdvanceConfig>
+  <EventOp>
+    <SupprTime uselast="0">1200</SupprTime>
+    <OccurCnt nCount="1" nInterval="1">0</OccurCnt>
+  </EventOp>
+  <DataOp>
+    <CollectIter>1</CollectIter>
+    <CollectUponEvt pauseonevtstop="0">0</CollectUponEvt>
+    <CollectDetail>1</CollectDetail>
+    <NoArchiveDetail>0</NoArchiveDetail>
+    <ReportArchive>0</ReportArchive>
+  </DataOp>
+</AdvanceConfig>
+<IsPowershell>true</IsPowershell>
+<RepTargets />

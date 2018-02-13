@@ -1,0 +1,10 @@
+C:\Development\dnksdemo\13thFeb2018\powerShellKnowledgeScript1\powerShellKnowledgeScript1\bin\Debug\powerShellKnowledgeScript1.dll
+C:\Development\dnksdemo\13thFeb2018\powerShellKnowledgeScript1\powerShellKnowledgeScript1\bin\Debug\powerShellKnowledgeScript1.pdb
+C:\Development\dnksdemo\13thFeb2018\powerShellKnowledgeScript1\powerShellKnowledgeScript1\bin\Debug\SdNcenter.Dnks.PowerShell.dll
+C:\Development\dnksdemo\13thFeb2018\powerShellKnowledgeScript1\powerShellKnowledgeScript1\obj\Debug\powerShellKnowledgeScript1.csprojResolveAssemblyReference.cache
+C:\Development\dnksdemo\13thFeb2018\powerShellKnowledgeScript1\powerShellKnowledgeScript1\obj\Debug\powerShellKnowledgeScript1.dll
+C:\Development\dnksdemo\13thFeb2018\powerShellKnowledgeScript1\powerShellKnowledgeScript1\obj\Debug\powerShellKnowledgeScript1.pdb
+C:\Development\dnksdemo\13thFeb2018\powerShellKnowledgeScript1\powerShellKnowledgeScript1\bin\Debug\AWSSDK.CloudWatch.dll
+C:\Development\dnksdemo\13thFeb2018\powerShellKnowledgeScript1\powerShellKnowledgeScript1\bin\Debug\AWSSDK.Core.dll
+C:\Development\dnksdemo\13thFeb2018\powerShellKnowledgeScript1\powerShellKnowledgeScript1\bin\Debug\AWSSDK.CloudWatch.xml
+C:\Development\dnksdemo\13thFeb2018\powerShellKnowledgeScript1\powerShellKnowledgeScript1\bin\Debug\AWSSDK.Core.xml
